@@ -97,13 +97,13 @@ body {
     color: var(--white-color);
 }
 
-.section-one > .button {
+.section-one .button {
     color: var(--white-color);
     background-color: var(--iris-color);
     cursor: pointer;
 }
 
-.section-one > .button:hover {
+.section-one .button:hover {
     background-color: var(--ocean-color);
 }
 
@@ -129,3 +129,21 @@ body {
 .link-logo-footer > span {
     color: var(--white-color);
 }
+
+/*portfolio page*/
+
+.portfolio-title {
+    color: var(--white-color);
+}
+
+.filtr-portfolio .button {
+    color: var(--iris-color);
+    background-color: var(--cloud-color);
+    cursor: pointer;
+}
+
+.filtr-portfolio .button:hover {
+    color: var(--white-color);
+    background-color: var(--ocean-color);
+}
+
