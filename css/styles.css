@@ -6,7 +6,8 @@
     --iris-color: #4D5AE5;
     --navy-blue: #2E2F42;
     --slate-color: #434455;
-    --background-color: #FFFFFF;
+    --ocean-color: #404BBF;
+    --white-color: #FFFFFF;
 }
 
 body {
@@ -18,7 +19,13 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: var(--slate-color);
-    background-color: var(--background-color);
+    background-color: var(--white-color);
+}
+.page-title {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
 }
 
 h2, 
@@ -39,7 +46,7 @@ ol {
 
 .link-logo {
     font-family: var(--logo-font);
-    font-size: 18px,
+    font-size: 18px;
     font-weight: 800;
     line-height: 1.167;
     letter-spacing: 0.54px;
@@ -55,7 +62,32 @@ ol {
     color: var(--navy-blue);
 }
 
+.page-link:hover{
+    color: var(--ocean-color);
+}
+
 .header-contacts .link {
     font-style: normal;
-    color: var(--slate-color)
+    color: var(--slate-color);
+
+}
+
+.header-contacts .link:hover, 
+.header-contacts .link:focus {
+    color: var(--ocean-color);
+}
+
+/*main content page index*/
+.section-one {
+    background-color: var(--navy-blue);
+    color: var(--white-color);
+}
+
+.section-one > .button {
+    color: var(--white-color);
+    background-color: var(--iris-color);
+}
+
+.section-one > .button:hover {
+    background-color: var(--ocean-color);
 }
