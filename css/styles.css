@@ -33,18 +33,13 @@ ol {
 
 .link {
     text-decoration: none;
-    font-style: normal;
-    color: var(--slate-color)
 }
-
-
 
 /*Header*/
 
 .link-logo {
     font-family: var(--logo-font);
     font-size: 18px,
-    font-style: normal;
     font-weight: 800;
     line-height: 1.167;
     letter-spacing: 0.54px;
@@ -61,5 +56,6 @@ ol {
 }
 
 .header-contacts .link {
-
+    font-style: normal;
+    color: var(--slate-color)
 }
