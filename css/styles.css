@@ -15,8 +15,6 @@ body {
     sans-serif;*/
     font-family: var(--primary-font);
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.5;
     color: var(--slate-color);
     background-color: var(--white-color);
@@ -29,7 +27,7 @@ body {
     text-align: center;
 }
 
-.title-two {
+.section-title {
     color: var(--navy-blue);
     font-size: 36px;
     font-weight: 700;
@@ -39,7 +37,7 @@ body {
     text-align: center;
 }
 
-.title-three  {
+.title  {
     color: var(--navy-blue);
     font-size: 20px;
     font-weight: 500;
@@ -48,8 +46,7 @@ body {
 }
 
 
-ul,
-ol {
+.list {
     list-style-type: none;
 }
 
@@ -93,6 +90,7 @@ ol {
 }
 
 /*main content page index*/
+
 .section-one {
     background-color: var(--navy-blue);
     color: var(--white-color);
@@ -101,12 +99,22 @@ ol {
 .section-one > .button {
     color: var(--white-color);
     background-color: var(--iris-color);
+    cursor: pointer;
 }
 
 .section-one > .button:hover {
     background-color: var(--ocean-color);
 }
 
-.section-two > .title-two {
+.section-two > .section-title {
     color: var(--white-color);
+}
+.section-four {
+    background-color: var(--cloud-color);
+}
+
+.section-four  .title,
+.section-four  .section-text {
+    text-align: center;
+    background-color: var(--white-color);
 }
