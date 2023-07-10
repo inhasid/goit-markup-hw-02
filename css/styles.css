@@ -120,7 +120,7 @@ body {
     background-color: var(--ocean-color);
 }
 
-.section-two > .section-title {
+.section-two .section-title {
     color: var(--white-color);
     line-height: 1.2;
 
