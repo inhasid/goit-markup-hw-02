@@ -55,6 +55,15 @@ body {
     text-decoration: none;
 }
 
+.button {
+        font-size: 16px
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+}
+
+
 /*Header*/
 
 .link-logo,
@@ -104,10 +113,6 @@ body {
 .section-one .button {
     color: var(--white-color);
     background-color: var(--iris-color);
-    cursor: pointer;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
 }
 
 .section-one .button:hover,
@@ -163,8 +168,16 @@ body {
     cursor: pointer;
 }
 
-.filtr-portfolio .button:hover {
+.filtr-portfolio .button:hover
+.filtr-portfolio .button:focus {
     color: var(--white-color);
     background-color: var(--ocean-color);
 }
 
+.section-portfolio .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
