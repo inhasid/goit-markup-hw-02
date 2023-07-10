@@ -56,7 +56,7 @@ body {
 }
 
 .button {
-        font-size: 16px
+        font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
@@ -162,14 +162,13 @@ body {
     color: var(--white-color);
 }
 
-.filtr-portfolio .button {
+.button-portfolio {
     color: var(--iris-color);
     background-color: var(--cloud-color);
-    cursor: pointer;
 }
 
-.filtr-portfolio .button:hover
-.filtr-portfolio .button:focus {
+.button-portfolio:hover,
+.button-portfolio:focus {
     color: var(--white-color);
     background-color: var(--ocean-color);
 }
