@@ -122,9 +122,12 @@ body {
 
 .section-two .section-title {
     color: var(--white-color);
-    line-height: 1.2;
-
 }
+
+.section-two .title {
+    line-height: 1.2;
+}
+
 .section-four {
     background-color: var(--cloud-color);
 }
