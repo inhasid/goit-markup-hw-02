@@ -16,6 +16,7 @@ body {
     font-family: var(--primary-font);
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--slate-color);
     background-color: var(--white-color);
 }
@@ -32,7 +33,7 @@ body {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
 }
@@ -61,13 +62,13 @@ body {
     font-family: var(--logo-font);
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.167;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     color: var(--iris-color);
     text-transform: uppercase;
 }
-.link-logo > span {
-    color: var(--slate-color);
+.span-logo-header {
+    color: var(--navy-blue);
 }
 
 .page-link {
@@ -75,14 +76,17 @@ body {
     color: var(--navy-blue);
 }
 
-.page-link:hover{
+.page-link:hover,
+.page-link:focus {
     color: var(--ocean-color);
 }
 
-.header-contacts .link {
+.header-contacts {
     font-style: normal;
-    color: var(--slate-color);
+}
 
+.header-contacts .link {
+    color: var(--slate-color);
 }
 
 .header-contacts .link:hover, 
@@ -101,33 +105,50 @@ body {
     color: var(--white-color);
     background-color: var(--iris-color);
     cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
-.section-one .button:hover {
+.section-one .button:hover,
+.section-one .button:focus {
     background-color: var(--ocean-color);
 }
 
 .section-two > .section-title {
     color: var(--white-color);
+    line-height: 1.2;
+
 }
 .section-four {
     background-color: var(--cloud-color);
 }
 
+.list-section-four {
+    background-color: var(--white-color);
+}
+
+.section-four .title {
+    line-height: 1.2;
+}
+
 .section-four  .title,
 .section-four  .section-text {
     text-align: center;
-    background-color: var(--white-color);
 }
 
 /*footer*/
 .footer {
     background-color: var(--navy-blue);
-    color: var(--white-color);
+    color: var(--cloud-color);
 }
 
-.link-logo-footer > span {
-    color: var(--white-color);
+.link-logo-footer {
+    line-height: 1.17;
+}
+
+.span-logo-footer {
+    color: var(--cloud-color);
 }
 
 /*portfolio page*/
